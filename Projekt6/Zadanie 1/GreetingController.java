@@ -5,9 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GreetingController {
- 
-6
-    Opracowała: dr inż. Kornelia Indykiewicz
+
     private static final String template = "bye, %s!";
     private final AtomicLong counter = new AtomicLong();
 
